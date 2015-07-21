@@ -12,10 +12,10 @@ icon: glyphicon-play
 
 ---
 
-```java
-String str = "Hello World!";
+{% highlight java %}
+String str = "Hello tttWrorld!";
 System.out.println(str);
-```
+{% endhighlight %}
 
 ---
 

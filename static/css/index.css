@@ -10,8 +10,8 @@ article p{
 	/*text-indent: 2em;*/
 }
 pre{
-	padding: 0;
-	background: none;
+	padding: 4;
+    background: #eee;
 }
 
 pre code{
