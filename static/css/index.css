@@ -3,7 +3,7 @@
  */
 /* commom */
 body {
-	background-image: url(http://7q5cdt.com1.z0.glb.clouddn.com/bg-canvas_bg.jpg);
+	background-image: url(http://g.hiphotos.baidu.com/zhidao/pic/item/b7fd5266d0160924ed070106d60735fae6cd3488.jpg);
     font-family: 'Microsoft YaHei', 'SimHei', sans-serif;
 }
 article p{
@@ -47,16 +47,27 @@ table td{
 
 /* navbar */
 nav{
+	background-color: #dddddd;
 	-webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.5);
-	-moz-box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 2px 4px rgba(10,10,0,0.5);
 	-o-box-shadow: 0 2px 4px rgba(0,0,0,0.5);
 	box-shadow: 0 2px 4px rgba(0,0,0,0.5);
-
 	border-radius: 0;
 }
 .navbar-nav li{
 	width: 95px;
 	text-align: center;
+}
+
+.navbar-text {
+}
+
+.navbar-brand {
+	text-align: center;
+	padding: 15px;
+}
+
+.navbar-collapse {
 }
 
 /* index main */
@@ -65,7 +76,7 @@ nav{
 }
 .post-area{
 	
-	background-color:#f8f8fd;
+	background-color:#e1e2e3;
 	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.4),0 0 30px rgba(10,10,0,0.1) inset;
 	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.4),0 0 30px rgba(10,10,0,0.1) inset;
 	-o-box-shadow: 0 1px 2px rgba(0,0,0,0.4),0 0 30px rgba(10,10,0,0.1) inset;

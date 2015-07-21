@@ -10,7 +10,7 @@ description: 陈世文的博客
 # baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
-github_username:  no
+github_username: shiwen500
 permalink: /:year/:month/:day/:title/
 
 # Build settings
