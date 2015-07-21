@@ -12,4 +12,11 @@ icon: glyphicon-play
 
 ---
 
+```java
+String str = "Hello World!";
+System.out.println(str);
+```
+
+---
+
 end
