@@ -81,3 +81,31 @@ public class ExpandableHeightGridView extends GridView
 正常情况下，这是一个正常的`GirdView` 只有将`expanded`设置为true时才会全部展示。
 
 如果ListView想要同样地效果，修改的代码是一样的。
+
+## 使用
+
+* 布局的例子
+
+{% highlight ruby %}
+
+<com.example.ExpandableHeightGridView
+    android:id="@+id/myId"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:horizontalSpacing="2dp"
+    android:isScrollContainer="false"
+    android:numColumns="4"
+    android:stretchMode="columnWidth"
+    android:verticalSpacing="20dp" />
+
+{% endhighlight %}
+
+* java代码
+
+{%  highlight java %}
+
+mAppsGrid = (ExpandableHeightGridView) findViewById(R.id.myId);
+mAppsGrid.setExpanded(true);
+
+{%  endhighlight %}
