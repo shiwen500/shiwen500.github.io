@@ -11,13 +11,10 @@ article p{
 }
 pre{
 	padding: 4;
-    background: #eee;
 }
 
 pre code{
 	font-size: 14px;
-	font-style: italic;
-	font-weight: lighter;
 }
 
 table{
