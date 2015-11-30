@@ -12,7 +12,7 @@ excerpt: android studio
 
 * 2. 逐个检查依赖的项目，如果项目项目下有类似 android studio 项目下的文件， 全部删除（避免麻烦）
      
-      例如：build目录 .idea目录 gradle相关的文件
+      `例如：build目录 .idea目录 gradle相关的文件`
 
 * 3. 新建一个 eclipse android lib 项目， 将需要迁移的项目本身和所有的依赖项目 中`重复使用的` jar包 复制到新的项目中，然后删除原来的jar包
 
@@ -26,7 +26,7 @@ excerpt: android studio
 
 #### 第四步，修改项目内的build.gradle 文件，添加依赖：
 
-      项目A  ： compile project(':B');   compile project(':C');  compile project(':D');
+      `项目A  ： compile project(':B');   compile project(':C');  compile project(':D');`
 
-      项目B，C  : compile  project(':D') 
+      `项目B，C  : compile  project(':D')` 
 
